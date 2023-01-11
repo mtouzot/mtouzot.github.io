@@ -1,8 +1,7 @@
 ---
 layout: blog
 permalink: /blog/
-title: Rohit Jain | Blog
+title: Martin TOUZOT | Blog
 pagination:
   enabled: true
 ---
-
