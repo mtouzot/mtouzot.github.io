@@ -4,124 +4,39 @@ title: About
 permalink: /about/
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# :wave: Who am I ?
 
-[Link to another page](./another-page.html).
+Hi, I'm Martin TOUZOT !
 
-There should be whitespace between paragraphs.
+Currently working as an image processing engineer, and when I'm not watching a **movie** at [Le Grand Rex](https://www.legrandrex.com/), I love :
+* reading **thrillers** :books:,
+* playing **board games** :game_die: with friends
+* **running** :runner: to take on personal challenges as
+  * 10km : Corrida de Noël d'Issy-Les-Moulineaux (2019, 2022), ...,
+  * Half-marathon : Lyon (2019) & Paris (2021, 2022),
+  * Marathon : Paris (2021, 2022)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# :pushpin: About the blog
 
-# Header 1
+This blog main goal is to **document** and **share** some personal projects I'm working on. As a memo, it'll help me to track the evolution of **_some_** ideas I could have from their birth to their __most__ final shape!<br>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+The main subjects you'll find here will focused on :
+* **software programming** :computer:,
+* **DIY** _(3D printing, craft,...)_ :construction:,
+* **hardware** and **basic electronics** _(Raspberry Pi, Arduino)_ :electric_plug:,
+* **to continue**...
 
 
-### Definition lists can be used with HTML syntax.
+# Some projects
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+ * _2018_ **Papibot Révillon** | [[:computer: Code](https://github.com/mtouzot/PapibotPi) & [:bird: Twitter account](https://twitter.com/papibotrevillon)] :skull:
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+    **PapibotPi** was a project made while I was a member of the [**ACoLab**](https://acolab.fr/), the **Clermont-Ferrand** FabLab. From a **Raspberry Pi Zero** under the pseudo of *Papibot Révillon*, this **bot posted quotes on Twitter**. Left for dead and buggy, this project was made in order, for me, to use **Python** and **SQL languages** (both where stuff I did not very well). With the acquisition of Twitter by **Elon Musk**, and the addition of the **paywall** for the API, maybe it will **stay dead** for some time.
 
-```
-The final element.
-```
+ * _2021_ **GameBEye** | [[:computer: Code](https://github.com/mtouzot/GameBEye) & [:memo: Doc](https://mtouzot.github.io/GameBEye)] [**WIP**]
 
-## Emojis
+    **GameBEye** was made to keep playing with a **vintage object**, the **Game Boy Camera**. Released in the **late 90's** with **128x112 pixels** with no other value than one of **4 gray levels**, I though it would be fun to do some **image processing** with **Python** with theses pictures !
+
+ * _2022_ **Project Simon** | [[:computer: GitHub organization](https://github.com/Project-Simon) & [:memo: Doc](https://project-simon.github.io)] [**WIP**]
+
+    The **ProjectSimon** is the project I'm currently working on : an **open-source** and **DIY** motion picture **film scanner** for 35mm films based upon a **Raspberry Pi**, an **Adafruit Feather**, **3D printing**...,
