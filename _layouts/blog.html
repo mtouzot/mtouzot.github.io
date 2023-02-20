@@ -19,7 +19,7 @@ pagetype: blog
 </ul>
 </div>
 <ul class="blog-list">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
         <li>
             <a class="blog-heading" href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="date">{{ post.date | date_to_string }}</span>
             <div class="excerpt">{{ post.excerpt }}</div>
