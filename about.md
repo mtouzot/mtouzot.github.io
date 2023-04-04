@@ -11,10 +11,10 @@ Hi, I'm Martin TOUZOT !
 Currently working as an image processing engineer, and when I'm not watching a **movie** at [Le Grand Rex](https://www.legrandrex.com/), I love :
 * reading **thrillers** :books:,
 * playing **board games** :game_die: with friends
-* **running** :runner: to take on personal challenges as
-  * 10km : Corrida de Noël d'Issy-Les-Moulineaux (2019, 2022), ...,
-  * Half-marathon : Lyon (2019) & Paris (2021, 2022),
-  * Marathon : Paris (2021, 2022)
+* **running** :runner: to take on personal challenges
+  * 10km : Corrida de Noël d'Issy-Les-Moulineaux (2019, 2022) & few others,
+  * Half-marathon : Lyon (2019) & Paris (2021, 2022, 2023),
+  * Marathon : Paris (2021, 2022, 2023)
 
 # :pushpin: About the blog
 
