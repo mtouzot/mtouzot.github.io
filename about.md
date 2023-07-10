@@ -12,7 +12,8 @@ Currently working as an image processing engineer, and when I'm not watching a *
 * reading **thrillers** :books:,
 * playing **board games** :game_die: with friends
 * **running** :runner: to take on personal challenges
-  * 10km : Corrida de Noël d'Issy-Les-Moulineaux (2019, 2022) & few others,
+  * 10km : Corrida de Noël d'Issy-Les-Moulineaux (2019, 2022),
+  * 15km : La course royale in the gardens of Palace of Versailles (2023),
   * Half-marathon : Lyon (2019) & Paris (2021, 2022, 2023),
   * Marathon : Paris (2021, 2022, 2023)
 
