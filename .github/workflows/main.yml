@@ -3,7 +3,7 @@ name: Build and deploy this site to GitHub Pages
 on:
   push:
     branches:
-      - master 
+      - main 
 
 jobs:
   github-pages:
@@ -20,6 +20,6 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}
-          jekyll_baseurl: 'dev-portfolio-blog'
+          jekyll_baseurl: ''
           pre_build_commands: pacman -S --noconfirm nodejs npm
           branch: 'sample-site'
