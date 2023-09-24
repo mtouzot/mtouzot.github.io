@@ -12,7 +12,7 @@ Currently working as an image processing engineer, and when I'm not watching a *
 * reading **thrillers** :books:,
 * playing **board games** :game_die: with friends
 * **running** :runner: to take on personal challenges
-  * 10km : Corrida de Noël d'Issy-Les-Moulineaux (2019, 2022),
+  * 10km : Corrida de Noël d'Issy-Les-Moulineaux (2019, 2022), 10km pour le Climat à Boulogne-Billancourt (2022), Mâcon (2023),
   * 15km : La course royale in the gardens of Palace of Versailles (2023),
   * Half-marathon : Lyon (2019) & Paris (2021, 2022, 2023),
   * Marathon : Paris (2021, 2022, 2023)
@@ -40,4 +40,8 @@ The main subjects you'll find here will focused on :
 
  * _2022_ **Project Simon** | [[:computer: GitHub organization](https://github.com/Project-Simon) & [:memo: Doc](https://project-simon.github.io)] [**WIP**]
 
-    The **ProjectSimon** is the project I'm currently working on : an **open-source** and **DIY** motion picture **film scanner** for 35mm films based upon a **Raspberry Pi**, an **Adafruit Feather**, **3D printing**...,
+    The **Project Simon** is the project I'm currently working on : an **open-source** and **DIY** motion picture **film scanner** for 35mm films based upon a **Raspberry Pi**, an **Adafruit Feather**, **3D printing**...,
+
+ * _2023_ **LytroIO** | [[:computer: Code](https://github.com/mtouzot/LytroIO) & [:memo: Doc](https://mtouzot.github.io/LytroIO)] [**WIP**]
+    
+    **LytroIO** is another WIP project in **C++**. Made to read **propietary file format** from the closed company named **Lytro** who was selling [**light-field camera**](https://en.wikipedia.org/wiki/Light_field_camera)
