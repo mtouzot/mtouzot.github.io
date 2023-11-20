@@ -25,14 +25,14 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          output_directory: resume 
+          args: -output-directory resume 
           root_file: resume/resume.tex
 
       - name: Commit PDF LaTeX resume
         run: |
           git config --global user.name "mtouzot"
           git config --global user.email "mtouzot@users.noreply.github.com"
-          git add resume.pdf
+          git add resume/resume.pdf
           git commit -m "Upload PDF resume"
           git push
   
