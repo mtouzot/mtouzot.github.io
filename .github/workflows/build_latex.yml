@@ -25,14 +25,13 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          work_in_root_file_dir: true
           root_file: resume/resume.tex
 
       - name: Commit PDF LaTeX resume
         run: |
           git config --global user.name "mtouzot"
           git config --global user.email "mtouzot@users.noreply.github.com"
-          git add resume/resume.pdf
+          git add resume.pdf
           git commit -m "Upload PDF resume"
           git push
   
@@ -42,7 +41,13 @@ jobs:
           name: PDF
           path: resume.pdf
 
-      - name: Create Release
+      - uses: mukunku/tag-exists-action@v1.4.0
+        id: checkTag
+        with: 
+          tag: resume-${{ steps.date.outputs.date }}
+
+      - if: ${{ ! steps.checkTag.outputs.exists }}
+        name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
