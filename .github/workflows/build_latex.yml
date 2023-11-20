@@ -7,7 +7,6 @@ on:
 jobs:
   build_latex:
     runs-on: ubuntu-latest
-
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
       contents: write
@@ -27,6 +26,15 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume/resume.tex
+
+      # Commit and push all changed files.
+      - name: Commit PDF LaTeX resume
+        run: |
+          git config --global user.name "mtouzot"
+          git config --global user.email "mtouzot@users.noreply.github.com"
+          git add resume/resume.pdf
+          git commit -m "Upload PDF resume"
+          git push
   
       - name: Upload PDF file in a zip
         uses: actions/upload-artifact@v3
