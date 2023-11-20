@@ -27,12 +27,11 @@ jobs:
         with:
           root_file: resume/resume.tex
 
-      # Commit and push all changed files.
       - name: Commit PDF LaTeX resume
         run: |
           git config --global user.name "mtouzot"
           git config --global user.email "mtouzot@users.noreply.github.com"
-          git add resume/resume.pdf
+          git add resume.pdf
           git commit -m "Upload PDF resume"
           git push
   
