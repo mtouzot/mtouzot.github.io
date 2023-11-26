@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - feature/latex_resume
+    paths:
+      - "resume/*"
 
 jobs:
   build_latex:
