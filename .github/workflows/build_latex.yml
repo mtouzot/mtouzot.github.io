@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - feature/latex_resume
+      -
     paths:
       - "resume/*"
 
@@ -20,10 +21,6 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
@@ -37,36 +34,3 @@ jobs:
           git commit -m "Upload PDF resume"
           git push
   
-      - name: Upload PDF file in a zip
-        uses: actions/upload-artifact@v3
-        with:
-          name: PDF
-          path: resume.pdf
-
-      - uses: mukunku/tag-exists-action@v1.4.0
-        id: checkTag
-        with: 
-          tag: resume-${{ steps.date.outputs.date }}
-
-      - if: ${{ ! steps.checkTag.outputs.exists }}
-        name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: resume-${{ steps.date.outputs.date }}
-          release_name: resume-${{ steps.date.outputs.date }}
-          draft: false
-          prerelease: false
-
-      - name: Upload Release Asset
-        id: upload-release-asset 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./resume.pdf
-          asset_name: resume.pdf
-          asset_content_type: pdf
