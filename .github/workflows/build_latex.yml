@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - feature/latex_resume
-      -
+      - main
     paths:
       - "resume/*"
 
