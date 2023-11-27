@@ -3,7 +3,10 @@ name: Build and deploy this site to GitHub Pages
 on:
   push:
     branches:
-      - main 
+      - main
+    paths-ignore:
+      - "resume/**"
+      - "README*.md"
 
 jobs:
   github-pages:
