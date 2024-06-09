@@ -2,7 +2,6 @@ name: Build LaTeX document
 on:
   push:
     branches:
-      - feature/latex_resume
       - main
     paths:
       - "resume/*"
@@ -34,4 +33,3 @@ jobs:
           git add resume/resume.pdf
           git commit -m "Upload PDF resume"
           git push
-  
