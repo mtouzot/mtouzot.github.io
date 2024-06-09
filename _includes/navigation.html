@@ -1,9 +1,11 @@
 <ul>
+      {% if page.url != "/" %}
       <li>
         <a href = "{{ '/' | relative_url }}">
           Home
         </a>
       </li>
+      {% endif %}
       <li>
         <a href = "{{ 'about/' | relative_url }}">
           About
