@@ -1,0 +1,15 @@
+---
+layout: description
+title: Portfolio
+pagetype: portfolio
+---
+<!-- This loops through the projects -->
+
+<ul class="blog-list">
+    {% for project in site.projects %}
+        <li>
+            <a class="blog-heading" href="{{ project.website | relative_url }}">{{ project.title }}</a>
+            <div class="excerpt">{{ project.description }}</div>
+        </li>
+    {% endfor %}
+</ul>

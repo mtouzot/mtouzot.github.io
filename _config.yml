@@ -19,6 +19,10 @@ plugins:
 # Remove the item if you don't need it
 github_username: mtouzot
 
+# Portfolio
+collections:
+  projects:
+    output: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
