@@ -1,0 +1,19 @@
+{% include svg-icons.html %}
+
+<footer>
+    <div class="footer">
+        <p>
+            <a href="mailto:{{ site.author_mail }}" title="Mail">
+                <svg class="logo"><use xlink:href="#icon-mail"></use></svg>
+            </a>
+            <a href="https://github.com/{{ site.github_username }}" title="Github">
+                <svg class="logo"><use xlink:href="#icon-github"></use></svg>
+            </a>
+        </p>
+        <span class="block">&copy;
+            {% assign this_year = site.time | date: '%Y' %}
+            {{ site.start_year }} - {{ this_year }}
+            <a>{{ site.author_name }}</a>
+        </span>
+    </div>
+</footer>

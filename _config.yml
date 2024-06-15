@@ -1,5 +1,7 @@
 resume_url: "resume/resume.pdf"
 author_name: "Martin TOUZOT"
+author_mail: martin.touzot@gmail.com
+start_year: "1991"
 url: mtouzot.github.io
 
 plugins:
@@ -12,6 +14,11 @@ plugins:
   - sprockets
   - autoprefixer-rails
   - jemoji
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: mtouzot
+
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

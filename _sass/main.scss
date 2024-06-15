@@ -270,9 +270,37 @@ body {
     overflow: auto;
   }
 }
-
 .profil-picture {
   border-radius: 50%;
   background-position: 40%;
   opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  .logo {
+    border-radius: 5%;
+    height: 56px;
+    width: 56px;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: rem(10px);
+  }
+
+  p {
+    text-decoration: none;
+    font-size: rem(16px);
+    line-height: rem(25px);
+  }
+
+  a {
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    &.creator:hover {
+      text-decoration: underline;
+    }
+  }
 }
