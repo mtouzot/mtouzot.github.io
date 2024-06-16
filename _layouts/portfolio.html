@@ -9,8 +9,18 @@ pagetype: portfolio
     {% assign projects = site.projects | sort: "title" %}
     {% for project in projects %}
         <li>
-            <a class="blog-heading" href="{{ project.website | relative_url }}">{{ project.title }}</a>
-            <div class="excerpt">{{ project.description }}</div>
+            <a class="blog-heading">{{ project.title }}</a>
+            {% if project.source_code %}
+                <a href="https://github.com/{{ site.github_username }}/{{ project.source_code }}" title="Source code" style="text-decoration: none;">
+                    <svg class="blog-logo"><use xlink:href="#icon-github"></use></svg>
+                </a>
+            {% endif %}
+            {% if project.documentation %}
+                <a href="{{ project.documentation | relative_url }}" title="Documentation" style="text-decoration: none;">
+                    <svg class="blog-logo"><use xlink:href="#icon-doc"></use></svg>
+                </a>
+            {% endif %}
+            <div class="excerpt">{{ project.excerpt }}</div>
         </li>
     {% endfor %}
 </ul>

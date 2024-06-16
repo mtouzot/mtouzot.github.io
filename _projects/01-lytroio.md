@@ -1,5 +1,7 @@
 ---
 title: LytroIO
-website: lytroIO
-description: A C++ library to parse Lytro files
+documentation: lytroIO
+source_code: lytroIO
 ---
+
+> A C++ library to parse Lytro files
