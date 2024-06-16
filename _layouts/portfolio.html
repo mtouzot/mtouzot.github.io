@@ -6,7 +6,8 @@ pagetype: portfolio
 <!-- This loops through the projects -->
 
 <ul class="blog-list">
-    {% for project in site.projects %}
+    {% assign projects = site.projects | sort: "title" %}
+    {% for project in projects %}
         <li>
             <a class="blog-heading" href="{{ project.website | relative_url }}">{{ project.title }}</a>
             <div class="excerpt">{{ project.description }}</div>
