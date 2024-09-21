@@ -5,4 +5,4 @@ source_code: lytroIO
 fork:
 ---
 
-> A C++ library to parse Lytro files
+> A **C++** library to parse Lytro files
