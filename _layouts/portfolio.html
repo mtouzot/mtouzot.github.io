@@ -15,6 +15,11 @@ pagetype: portfolio
                     <svg class="blog-logo"><use xlink:href="#icon-github"></use></svg>
                 </a>
             {% endif %}
+            {% if project.fork %}
+                <a href="{{ project.fork }}" title="Forked from" style="text-decoration: none;">
+                    <svg class="blog-logo"><use xlink:href="#icon-github-fork"></use></svg>
+                </a>
+            {% endif %}
             {% if project.documentation %}
                 <a href="{{ project.documentation | relative_url }}" title="Documentation" style="text-decoration: none;">
                     <svg class="blog-logo"><use xlink:href="#icon-doc"></use></svg>
