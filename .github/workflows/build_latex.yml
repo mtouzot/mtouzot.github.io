@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - "resume/*"
+      - "curriculum/*"
 
 jobs:
   build_latex:
@@ -23,13 +23,13 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: resume/resume.tex
+          root_file: curriculum/resume.tex
 
       - name: Commit PDF LaTeX resume
         run: |
-          mv resume.pdf resume/
+          mv resume.pdf curriculum/
           git config --global user.name "mtouzot"
           git config --global user.email "mtouzot@users.noreply.github.com"
-          git add resume/resume.pdf
+          git add curriculum/resume.pdf
           git commit -m "Upload PDF resume"
           git push
