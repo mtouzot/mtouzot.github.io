@@ -28,7 +28,7 @@ The same year _Les Bleus_, the France national football team, won their first FI
 
 <center>
   <figure>
-    <img src="https://mtouzot.github.io/GameBEye/_images/gameBoyCamera.png" alt="GameBoy Camera image">
+    <img src="https://media.githubusercontent.com/media/mtouzot/GameBEye/master/docs/_static/gameBoyCamera.png" alt="GameBoy Camera image">
     <figcaption>GameBoy Camera image</figcaption>
   </figure>
 </center>
@@ -91,15 +91,15 @@ For the moment, it allows a few effects as changing image colors from Black & Wh
 
 <center>
   <figure>
-    <img src="https://mtouzot.github.io/GameBEye/_images/CHIG.png" width="250" alt="CHIG color palette">
+    <img src="https://media.githubusercontent.com/media/mtouzot/GameBEye/master/docs/_static/colorPalettes/CHIG.png" width="250" alt="CHIG color palette">
     <figcaption>CHIG color palette</figcaption>
   </figure>
   <figure>
-    <img src="https://mtouzot.github.io/GameBEye/_images/PPR.png" width="250" alt="PPR color palette">
+    <img src="https://media.githubusercontent.com/media/mtouzot/GameBEye/master/docs/_static/colorPalettes/PPR.png" width="250" alt="PPR color palette">
     <figcaption>PPR color palette</figcaption>
   </figure>
   <figure>
-    <img src="https://mtouzot.github.io/GameBEye/_images/BANANA.png" width="250" alt="BANANA color palette">
+    <img src="https://media.githubusercontent.com/media/mtouzot/GameBEye/master/docs/_static/colorPalettes/BANANA.png" width="250" alt="BANANA color palette">
     <figcaption>BANANA color palette</figcaption>
   </figure>
 </center>
@@ -108,7 +108,7 @@ You can also add a thermal printed effect to display images like this :
 
 <center>
   <figure>
-    <img src="https://mtouzot.github.io/GameBEye/_images/printedGameBoyCamera.png" width="250" alt="Thermal printed image">
+    <img src="https://media.githubusercontent.com/media/mtouzot/GameBEye/master/docs/_static/printedGameBoyCamera.png" width="250" alt="Thermal printed image">
     <figcaption>Thermal printed image</figcaption>
   </figure>
 </center>
